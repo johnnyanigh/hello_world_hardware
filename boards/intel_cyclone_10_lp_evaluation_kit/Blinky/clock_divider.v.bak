@@ -1,0 +1,35 @@
+// Generates a 625 Hz output clock from a 40 MHz input clock.
+
+module clock_divider(
+    input CLK_IN,
+    output reg CLK_OUT
+    );
+
+	// Counter (max. count is 65,535 = 64k).
+	reg [15:0] count = 0;
+	
+	//	Divider.
+	always @ (posedge CLK_IN)
+	begin
+		begin
+			if(count < 32000)
+			begin
+				count <= count + 1;
+				CLK_OUT <= 1;
+			end
+										
+			else if ((count >= 32000) && (count < 65535))
+			begin
+				count <= count + 1;
+				CLK_OUT <= 0;
+			end
+										
+			else
+			begin
+				count <= 1;
+				CLK_OUT <= 1;
+			end
+		end
+	end
+		
+endmodule

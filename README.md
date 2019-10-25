@@ -13,10 +13,14 @@ controlling GPIO on Raspberry Pi boards).
 
 Otherwise follow all dependencies are listed below.
 
--/acceleration/openCL/Intel:
+/acceleration/openCL/Intel:
 
 (Intel) OpenCL
 
--/acceleration/cuda_c:
+/acceleration/cuda_c:
 
 (Nvidia) CUDA C
+
+/boards/intel_cyclone_10_lp_evaluation_kit:
+
+Intel Quartus Prime
