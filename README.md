@@ -15,12 +15,12 @@ Otherwise follow all dependencies are listed below.
 
 /acceleration/openCL/Intel:
 
-(Intel) OpenCL
+* (Intel) OpenCL
 
 /acceleration/cuda_c:
 
-(Nvidia) CUDA C
+* (Nvidia) CUDA C
 
 /boards/intel_cyclone_10_lp_evaluation_kit:
 
-Intel Quartus Prime
+* Intel Quartus Prime
