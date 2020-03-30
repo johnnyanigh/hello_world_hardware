@@ -1,26 +1,35 @@
-# **Hello World (Hardware)**
+# **"Hello, World" for Hardware**
 
 This repository contains examples that can be used when learning how to write
 a simple application for a language, tool, platform, etc.
 
-## Installation & Dependencies
+## **Description and Requirements**
 
 All software related items were tested on Linux (Ubuntu 18.04).
 
-Some of the code can already run on the hardware directly without installing any
-additional software (i.e. the Python files in /boards/raspberry_pi/ for
+Some of the code can already run on the hardware directly without installing any additional software (i.e. the Python files in /boards/raspberry_pi/ for
 controlling GPIO on Raspberry Pi boards).
 
 Otherwise follow all dependencies are listed below.
 
-/acceleration/openCL/Intel:
+### /acceleration/openCL/Intel
 
-* (Intel) OpenCL
+- (Intel) OpenCL
 
-/acceleration/cuda_c:
+The examples are taken from or based on the following site:
 
-* (Nvidia) CUDA C
+https://www.eriksmistad.no/getting-started-with-opencl-and-gpu-computing/
 
-/boards/intel_cyclone_10_lp_evaluation_kit:
+### /acceleration/cuda_c
 
-* Intel Quartus Prime
+- (Nvidia) CUDA C
+
+### /boards/intel_cyclone_10_lp_evaluation_kit
+
+- Intel Quartus Prime
+
+### /boards/raspberry_pi
+
+The examples are taken from or based on the following site:
+
+https://pimylifeup.com/raspberry-pi-gpio/
