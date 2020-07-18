@@ -12,9 +12,9 @@ GPIO.setup(7, GPIO.OUT)
 
 # Loop through 50 times to toggle the pin on/off for 1 second each
 for i in range(50):
-    GPIO.output(7,True)
+    GPIO.output(7, True)
     time.sleep(1)
-    GPIO.output(7,False)
+    GPIO.output(7, False)
     time.sleep(1)
 
 GPIO.cleanup()

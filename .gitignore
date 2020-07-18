@@ -1,8 +1,45 @@
-# C/C++
-*.out
+# Primary .gitignore file
+
+# Ansible files
+*.retry
+
+# DBs
+*.db
 
 # Debug
-*.log
+*[lL][oO][gG]
+*Debug/
 
-# General build folders
+# Other
+*.csv
+*.pdf
+*.pem
+*.txt
+*.[wW][aA][rR]
+*.[zZ][iI][pP]
+*secrets*
+
+# Output
+*.ipynb_checkpoints/
+*.o
+*.[oO][uU][tT]
+*cache*
 *build/
+*node_modules/
+*output/
+*target/
+*temp/
+
+# Pictures
+*.[jJ][pP][gG]
+*.[jJ][pP][eE][gG]
+*.[pP][nN][gG]
+
+# Tools
+*.cproject
+*.idea
+*.iml
+*.project
+*.settings/
+*.vscode/
+*env/
